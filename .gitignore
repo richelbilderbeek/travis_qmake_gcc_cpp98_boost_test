@@ -1,0 +1,45 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Misc
+*.gcda
+Makefile
+*.gcov
+*.gcda
+*.gcno
+*.pro.user
+clean
+Makefile.*
+exe_debug.txt
+exe_release.txt
+test_release.txt
+test_debug.txt
+travis_qmake_gcc_cpp98_boost_test
+travis_qmake_gcc_cpp98_boost_test_exe
+travis_qmake_gcc_cpp98_boost_test_test

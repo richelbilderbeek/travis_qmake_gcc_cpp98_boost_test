@@ -1,0 +1,8 @@
+sudo: true
+language: cpp
+compiler: gcc
+addons: 
+  apt: 
+    packages: libboost-all-dev
+
+script: ./build.sh
