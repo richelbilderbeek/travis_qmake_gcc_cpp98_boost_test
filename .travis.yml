@@ -5,4 +5,6 @@ addons:
   apt: 
     packages: libboost-all-dev
 
-script: ./build.sh
+script: 
+ - ./build.sh
+ - ./build_test.sh

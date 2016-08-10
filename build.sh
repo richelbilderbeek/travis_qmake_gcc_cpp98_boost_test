@@ -1,16 +1,4 @@
 #!/bin/bash
 qmake travis_qmake_gcc_cpp98_boost_test.pro
-make debug
+make
 ./travis_qmake_gcc_cpp98_boost_test
-
-qmake travis_qmake_gcc_cpp98_boost_test.pro
-make release
-./travis_qmake_gcc_cpp98_boost_test
-
-qmake travis_qmake_gcc_cpp98_boost_test_test.pro
-make debug
-./travis_qmake_gcc_cpp98_boost_test_test
-
-qmake travis_qmake_gcc_cpp98_boost_test_test.pro
-make release
-./travis_qmake_gcc_cpp98_boost_test_test
