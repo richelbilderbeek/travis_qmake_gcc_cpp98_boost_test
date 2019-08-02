@@ -1,11 +1,11 @@
 language: cpp
-dist: xenial
-sudo: true
+dist: bionic
 compiler: gcc
 
-addons: 		
-  apt: 		
-    packages: libboost-all-dev
+install: 
+  - sudo apt update -qq
+  # Boost
+  - sudo apt install -qq libboost-all-dev
 
 script: 
  - ./build.sh
